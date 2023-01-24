@@ -1153,10 +1153,12 @@ body.modal-open {
 } */
 
 .btn-close {
-    display: block;
+    display: flex;
     margin-left: auto;
     width: 24px;
     height: 24px;
+    align-items: center;
+    justify-content: center;
 
     background-color: var(--accent-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1514,3 +1516,9 @@ body.modal-open {
 .icon-prpt {
     fill: white;
 }
+
+/* .menu-toogle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
