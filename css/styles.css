@@ -1517,8 +1517,11 @@ body.modal-open {
     fill: white;
 }
 
-/* .menu-toogle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+.order-checkbox-checked {
+    border: 1.25px solid #2e2f42;
+    border-radius: 2px;
+
+    transition-property: background opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
